@@ -1,5 +1,6 @@
 /* Base */
 body {
+  overflow-x: hidden;
   line-height: 1.7;
   color: #8c92a0;
   font-weight: 300;
@@ -22,6 +23,10 @@ a {
 
 .text-black {
   color: #000; }
+
+.site-wrap {
+  overflow-x: hidden;
+}
 
 .site-wrap:before {
   -webkit-transition: .3s all ease-in-out;

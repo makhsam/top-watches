@@ -3,6 +3,7 @@ body {
 	color: darken($gray-3, 20%);
 	font-weight: 300;
 	font-size: 16px;
+	overflow-x: hidden;
 }
 ::-moz-selection { 
 	background: $black;
@@ -25,6 +26,8 @@ a {
 
 
 .site-wrap {
+	overflow-x: hidden;
+	
 	&:before {
 		transition: .3s all ease-in-out;
 		background: rgba(0,0,0,.6);
